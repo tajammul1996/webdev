@@ -1,0 +1,29 @@
+h1	{
+	color: red;
+	/*border-color: blue;
+	border-style: solid;
+	border-width: 5px;*/
+	border: 2px dashed black;
+}
+
+li {
+	color: blue;
+}
+
+ul {
+	border: 2px solid black;
+}
+
+body {
+	/*background : url(http);
+	background-repeat: no-repeat;
+	background-size: cover;*/
+	background: gray;
+}   
+
+
+/*
+BORDER PROPERTIES
+->width
+->color
+->style- solid, dashed, */

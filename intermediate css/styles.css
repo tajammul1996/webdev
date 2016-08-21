@@ -1,0 +1,34 @@
+/*cssfontstack.com
+
+text-align: center;
+line-height: 2;
+font-weight: bold or 100 - 800;
+text-decoration : underline or line-through(strike);
+
+*/
+div {
+	
+	
+	line-height: 1.5;
+	width: 50%;
+	border: 5px solid black;
+	margin: 0 auto 0 auto;
+	padding: 10px;
+
+}
+
+h1 {
+	font-family: 'Risque', cursive;
+	text-align: center;
+	text-decoration: underline;
+
+}
+
+h1 {
+	color: #2C6C91;
+}
+
+p {
+	font-family: 'Lora', serif;
+	
+}
