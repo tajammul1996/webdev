@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html ng-app>
+<head>
+	<meta charset="utf-8">
+	<title>Angular js</title>
+</head>
+<body>
+Name:
+<input type="text" ng-model="name"> {{name}}
+
+<div ng-init="names=['Tajammul', 'Pasha', 'Zuffari']">
+	<ol>
+		<li ng-repeat="person in names">{{person}}<br/></li>
+	</ol>
+</div>
+
+<button ng-init="count=0" ng-click="count= count + 1">
+	Increment
+</button>
+<button ng-click="count=0">
+	RESET
+</button>
+<span>
+	{{count}}
+</span>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+</body>
+</html>
